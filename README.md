@@ -21,6 +21,7 @@ $ make script
 ## Authors
 
 Ru Ji <r2ji@uwaterloo.ca>
+
 Meng Xu <m285xu@uwaterloo.ca>
 
 ## Publication
