@@ -36,3 +36,9 @@ Meng Xu <m285xu@uwaterloo.ca>
   address = {San Francisco, CA},
 }
 ```
+
+## Confirmed Cases
+
+DPN: PR [1](https://github.com/diem/diem/pull/10152) [2](https://github.com/diem/diem/pull/10176) [3](https://github.com/diem/diem/pull/10178)
+s2n-tls: [Report](https://mesquite-train-690.notion.site/Missing-specs-in-s2n-tls-90e3e6221e8b42ce84c788491cdc2a3f)
+
