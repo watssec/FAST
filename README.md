@@ -1,5 +1,6 @@
 # FAST: Finding Specification Blind Spots via Fuzz Testing
 A formally verified program can only be as correct as its specifications (<span class="smallcaps">SPEC</span>). But how to assure that <span class="smallcaps">SPEC</span> is complete and free of loopholes?
+
 FAST(<ins>F</ins>uzzing-<ins>A</ins>ssisted <ins>S</ins>pecification <ins>T</ins>esting) is an architecture which examines <span class="smallcaps">SPEC</span> incompleteness issues in an automated way. It first locates <span class="smallcaps">SPEC</span> gaps via mutation testing, i.e., by checking whether a <span class="smallcaps">CODE</span> variant conforms to the original <span class="smallcaps">SPEC</span>. If so, FAST further leverages the test suites to infer whether the gap is introduced by intention or by mistake. Depending on the size of the codebase, FAST is applied to two open-source codebases. FAST aims to highlight the prevalence of <span class="smallcaps">SPEC</span> incompleteness in real-world applications.
 
 
