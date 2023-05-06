@@ -1,5 +1,14 @@
 # FAST: Finding Specification Blind Spots via Fuzz Testing
 
+## Mutation Rules
+
+
+
+## Enumerative <span class="smallcaps">CODE</span> mutant generation
+
+<img src="/fig/mutation_rule.png"  width=35% height=35%>
+
+
 ## AWS S2N-TLS
 
 
