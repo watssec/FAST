@@ -6,12 +6,33 @@ FAST(<ins>F</ins>uzzing-<ins>A</ins>ssisted <ins>S</ins>pecification <ins>T</ins
 
 ## Mutation Rules
 
-
+<img src="/fig/mutation_rule.png"  width=35% height=35%>
 
 ## Enumerative <span class="smallcaps">CODE</span> mutant generation
 
-<img src="/fig/mutation_rule.png"  width=35% height=35%>
+Move compiler with mutation feature integrated lives in [Move](https://github.com/watssec/move/tree/mutation_testing)
 
+DPN smart contracts code lives in [Diem](https://github.com/diem/diem)
+
+The smart contracts file can be found under `diem/language/diem-framework/modules`
+
+
+### Usage
+
+Basic knowledge about Rust is assumed. (Rust has been properly installed on the testing environment)
+
+```
+# build Move CLI
+# Under move/language/tools/move-cli
+$ cargo build
+# Install move binary in the Cargo binary directory
+$ cargo install --path .
+```
+
+
+```
+
+```
 
 ## AWS S2N-TLS
 
