@@ -62,6 +62,13 @@ Survived mutants can be found under `work/survival`
 
 Seed information can be found under `work/seed`
 
+### Enviornment Setup
+
+Go into deps dir, make build all the dependencies. (SAW verification is quite fragile in terms of version requirement. The deps listed in this dir are most stable)
+
+In order to match the script with in FAST on parsing the error messages returned from SAW verification, replace executable file saw in saw-nightly built from `make saw-nightly` with the one from:
+
+[Workable saw nightly build, not available on their page anymore](https://github.com/meng-xu-cs/s2n-tls/blob/mutation-testing-add/tests/saw/deps/Linux-bins.zip)
 ### Replay
 
 To replay a mutant, in the docker:
