@@ -42,7 +42,7 @@ $ move package mutation
 
 
 
-## Installation using Docker
+### Installation using Docker
 
 Under ./docker
 ~~~~{.sh}
@@ -55,6 +55,28 @@ $ make once
 # run docker with script
 $ make script
 ~~~~
+
+The above commands start a fuzzing process.
+
+Survived mutants can be found under `work/survival`
+
+Seed information can be found under `work/seed`
+
+### Replay
+
+To replay a mutant, in the docker:
+
+~~~~{.sh}
+# Apply the mutation rules on source code
+# This will mutate and link the all_llvm.bc file into tests/saw/bitcode/all_llvm.bc
+$ python3 main.py replay addr_to_trace
+# After the mutation, test on the mutated code
+$ saw verify_xxxx.saw
+~~~~
+
+
+Additional trial experiment refer to [this link](https://github.com/meng-xu-cs/s2n-tls/blob/mutation-testing-add/tests/saw/MANUAL.md).
+
 
 ## Authors
 
