@@ -21,6 +21,8 @@ The smart contracts file can be found under `diem/language/diem-framework/module
 
 Basic knowledge about Rust is assumed. (Rust has been properly installed on the testing environment)
 
+First download the mutation integrated move-cli:
+
 ```
 # build Move CLI
 # Under move/language/tools/move-cli
@@ -29,10 +31,12 @@ $ cargo build
 $ cargo install --path .
 ```
 
-
+Perform mutation testing in DPN
+```
+# Under diem/language/diem-framework/modules
+$ move package mutation
 ```
 
-```
 
 ## AWS S2N-TLS
 
