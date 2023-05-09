@@ -81,8 +81,13 @@ $ python3 main.py replay addr_to_trace
 $ saw verify_xxxx.saw
 ~~~~
 
+There has been some trials on the efficiencies of mutants of different categorizes. To be specific:
 
-Additional trial experiment refer to [this link](https://github.com/meng-xu-cs/s2n-tls/blob/mutation-testing-add/tests/saw/MANUAL.md).
+1) One mutation trial on a single CODE location;
+2) Multiple mutation trials on a single CODE location (retrial mutants);
+3) Mutations on multiple CODE locations (higher-order mutants).
+
+For information on this part of code, please refer to [this link](https://github.com/meng-xu-cs/s2n-tls/blob/mutation-testing-add/tests/saw/MANUAL.md).
 
 
 ## Authors
